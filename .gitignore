@@ -1,0 +1,7 @@
+.idea/*
+build/
+build/*
+cbttunnels.egg-info/
+cbttunnels.egg-info.*
+cbttunnels/__pycache__/
+cbttunnels/__pycache__/*
