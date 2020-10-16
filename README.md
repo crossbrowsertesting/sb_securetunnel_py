@@ -12,8 +12,8 @@ please reach out to CrossBrowserTesting
 ## How to use
 
 ```
-from sbsecuretunnel.sb_securetunnels import SBTunnel
-tunnel = sbsecuretunnel.SBTunnel(username="you@email.com", authkey="yourauthkey")
+from sbsecuretunnel.sb_securetunnel import SBTunnel
+tunnel = SBTunnel(username="you@email.com", authkey="yourauthkey")
 tunnel.start_tunnel()
 ...
 tunnel.kill_tunnel()

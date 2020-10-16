@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="sbsecuretunnel",
-    version="0.0.1",
+    version="0.0.2",
     author="CrossBrowserTesting",
     author_email="info@crossbrowsertesting.com",
     description="A wrapper for Smartbear SecureTunnel, to make testing local sites easier in CrossBrowserTesting",
