@@ -226,11 +226,3 @@ def get_file_name():
     else:
         os = "linux"
     return os, f"SBSecureTunnel{suffix}"
-
-
-if __name__ == "__main__":
-    tunnel = SBTunnel(username="dan.hammer@smartbear.com", authkey="u0dcb5500aa360c6")
-    tunnel.start_tunnel()
-
-    sleep(120)
-    tunnel.kill_tunnel()
